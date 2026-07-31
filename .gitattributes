@@ -1,0 +1,15 @@
+# Normalize line endings
+
+# Exclude build artifacts
+src/**/*.ts linguist-detectable
+*.min.js linguist-generated
+docs/index.html linguist-vendored   
+*.ts linguist-detectable
+
+* text=auto eol=lf
+yarn.lock linguist-generated
+*.min.css linguist-generated
+*.html linguist-vendored
+*.yaml linguist-detectable=false
+*.svg text
+*.yml linguist-detectable=false
