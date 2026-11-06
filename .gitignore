@@ -1,0 +1,7 @@
+.env.local
+.pnpm-store/
+.DS_Store
+.env
+.cache/
+dist/
+dist/
